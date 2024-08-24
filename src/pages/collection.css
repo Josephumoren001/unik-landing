@@ -1,0 +1,21 @@
+.collectionContainer{
+    margin: 0 auto;
+margin-left:1rem ;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 4rem;
+ 
+}
+
+/* .collectionContainer .collectionTitle{
+    color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+} */
+

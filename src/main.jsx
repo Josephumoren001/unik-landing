@@ -5,6 +5,7 @@ import { createBrowserRouter, RouterProvider }
 import Home from "./pages/HomePage.jsx";
 import Start from "./pages/ProductsPage.jsx";
 import WaitList from "./pages/waitlist.jsx";
+import Collection from "./pages/collection.jsx";
 
 
 const router = createBrowserRouter([
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
   {
     path: '/waitlist',
     element: <WaitList />,
+  },
+  {
+    path: '/collection',
+    element: <Collection />,
   },
   
 ])

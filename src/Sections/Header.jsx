@@ -18,7 +18,7 @@ function Header() {
             <div className={HamMenuIsOpen ? "navlinks open" : "navlinks"}>
                 <NavLink to='/products' onClick={ToggleHamMenu}>Courses</NavLink> 
                 <NavLink to='/' onClick={ToggleHamMenu}>Community</NavLink> 
-                <NavLink to='/products' onClick={ToggleHamMenu}>Collections</NavLink> 
+                <NavLink to='/collection' onClick={ToggleHamMenu}>Collections</NavLink> 
                 <NavLink to='/' onClick={ToggleHamMenu}>About</NavLink> 
 
             </div>
