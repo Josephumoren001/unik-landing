@@ -18,14 +18,14 @@ function Header() {
             <div className={HamMenuIsOpen ? "navlinks open" : "navlinks"}>
                 <NavLink to='/products' onClick={ToggleHamMenu}>Courses</NavLink> 
                 <NavLink to='/' onClick={ToggleHamMenu}>Community</NavLink> 
-                <NavLink to='/products' onClick={ToggleHamMenu}>Products</NavLink> 
+                <NavLink to='/products' onClick={ToggleHamMenu}>Collections</NavLink> 
                 <NavLink to='/' onClick={ToggleHamMenu}>About</NavLink> 
 
             </div>
         </nav>
 
         <div className="header-btns">
-            <Link to='/products' className='btn'>Start Here</Link>
+            <Link to='/waitlist' className='btn'>Start Here</Link>
             <div className={HamMenuIsOpen ? "ham-menu-icon active" : "ham-menu-icon"} onClick={ToggleHamMenu}>
                 <span></span>
                 <span></span>

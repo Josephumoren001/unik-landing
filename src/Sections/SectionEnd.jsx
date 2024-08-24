@@ -1,4 +1,5 @@
 import React from 'react'
+import waitList from '../pages/waitlist'
 import '../App.css'
 import { Link } from 'react-router-dom'
 import ReviewCard from '../Components/ReviewCard'
@@ -8,22 +9,25 @@ function SectionEnd() {
         <div className="flex end-heading">
             Don't just take it from us!
         </div>
-        <div className="flex font-normal ma-bottom pa-LR">
-            Here's what developers from around the realm are saying.
+        <div className="flex font-normal ma-bottom pa-LR ">
+            <p className='t-center flex'>
+
+        Join a community of forward-thinking business leaders. Whether you're scaling up or starting out, <br /> our network will inspire and support your growth with AI
+            </p>
         </div>
         <div className="review-cont ma-bottom-2x">
-            <ReviewCard review={'"Super fun course from @gramtabitt and @GameDevTV will definitely be trying to make similar characters on my own in the future, but it was really great to go from absolutely nothing to apossible anime character"'} reviewer={'@iamshadow'}/>
-            <ReviewCard review={'"Super fun course from @gramtabitt and @GameDevTV will definitely be trying to make similar characters on my own in the future, but it was really great to go from absolutely nothing to apossible anime character"'} reviewer={'@iamshadow'}/>
-            <ReviewCard review={'"Super fun course from @gramtabitt and @GameDevTV will definitely be trying to make similar characters on my own in the future, but it was really great to go from absolutely nothing to apossible anime character"'} reviewer={'@iamshadow'}/>
+            <ReviewCard review={'"Integrating AI into my business has been a game-changer. These courses provided the knowledge and tools to innovate effectively."'} reviewer={'@moneymachine'}/>
+            <ReviewCard review={'"AI is the future, and these courses are the key to unlocking its potential in my business. Highly recommended!"'} reviewer={'@linda_'}/>
+            <ReviewCard review={'"The impact of AI on my business has been incredible. These courses made it easy to understand and apply"'} reviewer={'@perry'}/>
         </div>
         <div className="flex end-heading">
-            Be The Player, Not The NPC
+        Lead, Don’t Follow
         </div>
         <div className="flex font-normal ma-bottom">
-            Your Story, Your Rules, Your Adventure.
+        Your business deserves to be at the cutting edge. With our courses, you're not just learning—you're leading the charge in AI innovation
         </div>
         <div className="flex">
-            <Link  className="btn-large-fit">
+            <Link to='/waitlist' className="btn-large-fit">
                 Start Here
             </Link>
         </div>

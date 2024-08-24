@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider }
  from "react-router-dom"; 
 import Home from "./pages/HomePage.jsx";
 import Start from "./pages/ProductsPage.jsx";
+import WaitList from "./pages/waitlist.jsx";
 
 
 const router = createBrowserRouter([
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
   {
     path: '/products',
     element: <Start />,
+  },
+  {
+    path: '/waitlist',
+    element: <WaitList />,
   },
   
 ])

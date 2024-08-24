@@ -262,7 +262,7 @@ radial-gradient(at 70% 100%, hsla(343,100%,76%,0) 0px, transparent 50%);
   padding-top: 8rem;
   padding-bottom: 4rem;
   height: 100%;
-  width: 60%;
+  width: 80%;
   padding-left: var(--padding);
   /* border: 2px solid red; */
 }
@@ -270,7 +270,7 @@ radial-gradient(at 70% 100%, hsla(343,100%,76%,0) 0px, transparent 50%);
   text-align: left;
   display: flex;
   width: 100%;
-  margin-top: 0.4rem;
+  margin-top: 0.3rem;
   /* border: 2px solid blue; */
 }
 
@@ -289,12 +289,12 @@ radial-gradient(at 70% 100%, hsla(343,100%,76%,0) 0px, transparent 50%);
 }
 .font-large {
   font-weight: 400;
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   color: var(--textcolor1);
 }
 .font-xlarge {
   font-weight: 900;
-  font-size: 5rem;
+  font-size: 4rem;
   border-bottom: 1rem;
   width: 80%;
   color: transparent;
@@ -304,7 +304,7 @@ radial-gradient(at 70% 100%, hsla(343,100%,76%,0) 0px, transparent 50%);
 }
 .font-normal {
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: var(--textcolor1);
 }
 .hero-img img {
@@ -401,10 +401,19 @@ radial-gradient(at 70% 100%, hsla(343,100%,76%,0) 0px, transparent 50%);
   /* width: 0%; */
   /* border: 2px solid red; */
   margin: 1rem 0rem;
+  
 }
 .card-title span {
   display: flex;
   /* width: 100%; */
+}
+.card-title .title{
+  text-decoration: underline;
+}
+.card-title .title-detail{
+  font-size: 1rem;
+  font-weight: 200;
+  padding-top: 0.5rem;
 }
 .title,
 .title-detail {
@@ -899,6 +908,10 @@ footer{
 .font-normal{
   font-size: 1.3rem;
 }
+
+/* WAITLIST GOES HERE */
+
+
 
 .footer-link{
   font-size: .9rem;
