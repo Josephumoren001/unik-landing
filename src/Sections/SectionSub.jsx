@@ -18,6 +18,7 @@ function SectionSub() {
         <OptionsBar />
         <div className="product-cards-container">
 
+<Link to='/waitlist'>
         <ProductCard 
         image={cardImage} 
         cardTitle={"AI In Fashion:"} 
@@ -27,9 +28,11 @@ function SectionSub() {
         duration={"2hrs"} 
         profilePic="" 
         name={"Fashion Doctor"} 
-        price={5000} 
+        price={10000} 
         priceSlashed={20000} />
+</Link>
 
+<Link to='/waitlist'>
         <ProductCard 
         image={cardImage4} 
         cardTitle={"Event Designers:"} 
@@ -39,9 +42,11 @@ function SectionSub() {
         duration={"2hrs"} 
         profilePic="" 
         name={"Joseph Umoren"} 
-        price={5000} 
+        price={10000} 
         priceSlashed={20000} />
+        </Link>
 
+<Link to='/waitlist'>
         <ProductCard 
         image={cardImage2} 
         cardTitle={"Prompt Engineering:"} 
@@ -51,9 +56,11 @@ function SectionSub() {
         duration={"2hrs"} 
         profilePic="" 
         name={"Joseph Umoren"} 
-        price={3000} 
+        price={10000} 
         priceSlashed={20000} />
+        </Link>
 
+<Link to='/waitlist'>
         <ProductCard 
         image={cardImage3} 
         cardTitle={"AI in Beauty:"} 
@@ -63,8 +70,10 @@ function SectionSub() {
         duration={"2hrs"} 
         profilePic="" 
         name={"Joseph Umoren"} 
-        price={5000} 
+        price={10000} 
         priceSlashed={20000} />
+        </Link>
+
         </div>
 
 

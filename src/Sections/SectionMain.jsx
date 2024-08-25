@@ -14,7 +14,7 @@ function SectionMain() {
 
         <div className="hero-text">
             <p className="font-large">Get Good at</p>
-            <p className="font-xlarge gradient w-100">GenAI\ Creative Designs</p>
+            <p className="font-xlarge gradient w-100">Genenerative Creative AI</p>
             <p className="font-normal">Join a global network of over 2 million entrepreneurs and business leaders across 150+ countries. Our courses are designed to help you integrate AI-driven creativity into your business strategy, transforming ideas into impactful results.</p>
 
             

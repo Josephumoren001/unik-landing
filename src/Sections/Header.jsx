@@ -16,7 +16,7 @@ function Header() {
             <Link to="/" className="logo"></Link>
 
             <div className={HamMenuIsOpen ? "navlinks open" : "navlinks"}>
-                <NavLink to='/products' onClick={ToggleHamMenu}>Courses</NavLink> 
+                <NavLink to='/waitlist' onClick={ToggleHamMenu}>Courses</NavLink> 
                 <NavLink to='/' onClick={ToggleHamMenu}>Community</NavLink> 
                 <NavLink to='/collection' onClick={ToggleHamMenu}>Collections</NavLink> 
                 <NavLink to='/' onClick={ToggleHamMenu}>About</NavLink> 

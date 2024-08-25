@@ -3,70 +3,42 @@ import { ScrollRestoration } from "react-router-dom";
 import Header from "../Sections/Header"
 import Footer from "../Sections/Footer";
 import './collection.css'
-import image1 from '../assets/Col1.svg';
-import image2 from '../assets/Col2.svg';
-import image3 from '../assets/Col3.svg';
-import image4 from '../assets/Col4.svg';
-import image5 from '../assets/Col5.svg';
-import image6 from '../assets/Col6.svg';
-import image7 from '../assets/Col7.svg';
-import image8 from '../assets/Col8.svg';
-import image9 from '../assets/Col9.svg';
-import image10 from '../assets/Col10.svg';
-import image11 from '../assets/Col11.svg';
-import image12 from '../assets/Col12.svg';
-import image13 from '../assets/Col13.svg';
-import image14 from '../assets/Col14.svg';
-import image15 from '../assets/Col15.svg';
-import image16 from '../assets/Col16.svg';
-import image17 from '../assets/Col17.svg';
-import image18 from '../assets/Col18.svg';
-import image19 from '../assets/Col19.svg';
-import image20 from '../assets/Col20.svg';
-import image21 from '../assets/Col21.svg';
-import image22 from '../assets/Col22.svg';
-import image23 from '../assets/Col23.svg';
-import image24 from '../assets/Col24.svg';
-import image25 from '../assets/Col25.svg';
-import image26 from '../assets/Col26.svg';
-import image27 from '../assets/Col27.svg';
-import image28 from '../assets/Col28.svg';
-import image29 from '../assets/Col29.svg';
-import image30 from '../assets/Col30.svg';
+
 
 
 const Collection = () => {
   const images = [
-    image1,
-    image2,
-    image3,
-    image4,
-    image5,
-    image6,
-    image7,
-    image8,
-    image9,
-    image10,
-    image11,
-    image12,
-    image13,
-    image14,
-    image15,
-    image16,
-    image17,
-    image18,
-    image19,
-    image20,
-    image21,
-    image22,
-    image23,
-    image24,
-    image25,
-    image26,
-    image27,
-    image28,
-    image29,
-    image30,
+    'https://i.imgur.com/lQ3NQBS.jpg',
+    'https://i.imgur.com/L4qUEcV.jpg',
+    'https://i.imgur.com/5JKNmR7.jpg',
+    'https://i.imgur.com/m6pVH4N.jpg',
+    'https://i.imgur.com/xGBalWn.jpg',
+    'https://i.imgur.com/yuE3roa.jpg',
+    'https://i.imgur.com/mI1rTZ2.jpg',
+    'https://i.imgur.com/Y1KC57Z.jpg',
+    'https://i.imgur.com/fg2wnvM.jpg',
+    'https://i.imgur.com/VTu30HA.jpg',
+    'https://i.imgur.com/mJ1jUsF.jpg',
+    'https://i.imgur.com/7TRvnvd.jpg',
+    'https://i.imgur.com/gwbD5bi.jpg',
+    'https://i.imgur.com/VmGfENF.jpg',
+    'https://i.imgur.com/xXqaYjV.jpg',
+    'https://i.imgur.com/lGYHxpU.jpg',
+    'https://i.imgur.com/38nRC3W.jpg',
+    'https://i.imgur.com/8s04HMW.jpg',
+    'https://i.imgur.com/qj9Safm.jpg',
+    'https://i.imgur.com/IUzmTP6.jpg',
+    'https://i.imgur.com/CYMoFXF.jpg',
+    'https://i.imgur.com/TQHN2qL.jpg',
+    'https://i.imgur.com/PVudJIE.jpg',
+    'https://i.imgur.com/a83G1hm.jpg',
+    'https://i.imgur.com/VCt7ZYl.jpg',
+    'https://i.imgur.com/7rgsz6C.jpg',
+    'https://i.imgur.com/bdAeuoO.jpg',
+    'https://i.imgur.com/Xw4jQSm.jpg',
+    'https://i.imgur.com/i2FSWun.jpg',
+    'https://i.imgur.com/YYIqru8.jpg',
+    'https://i.imgur.com/lQ3NQBS.jpg',
    
   ];
 
